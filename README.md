@@ -9,14 +9,14 @@ You can also find the code of an ensembling model that scored 0.8435 LB on Priva
 
 ## Requirements
 
-### Download weights
+### Download the weights
 
 Download the corresponding weights and place them in the current folder on the Git repository.
 
 For the single model:
 [weights](https://drive.google.com/open?id=1UX2-iHB4eTgE0588kptB8N8kQRTvaG_e)
 
-### Environment
+### Set up the Environment
 
 You will need **Python3** with the following librairies:
 
@@ -39,3 +39,15 @@ Use pip3 to install them.
 
 
 if you are using Google Collab, you will only have to install pydicom, albumentations and efficientnet.
+
+## Work report
+
+I'm currently writting a work report of what I have done and how I choosed these models. It will be soon avaible.
+
+## Instructions
+
+* Donwload the dataset of the competition: [dataset](https://www.kaggle.com/iafoss/siimacr-pneumothorax-segmentation-data-512) (If you donwload this dataset, you don't have to preprocess the input images will be png images of shape 512x512)
+* Download the weights and set up your environment if it hasn't been done (check the specific section above)
+* Run the notebook [Model 1 Predictions.ipynb](https://github.com/GuillaumeBalezo/Pneumothorax-Segmentation/blob/master/Model%201%20Predictions.ipynb)
+
+The model needs a quite high GPU memory, so you may reduce the batch size in the "Hyperparameters section" of the notebooks if you have an issue with your GPU memory.
