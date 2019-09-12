@@ -9,7 +9,7 @@ You can also find the code of an ensembling model that scored 0.8435 LB on Priva
 
 ## Flowchart
 
-<img src="./Images/Schema.png" alt="FlowChart" align="center" width="700px"/>
+<img src="./Images/Schema.png" alt="FlowChart" align="center"/>
 
 ## Requirements
 
