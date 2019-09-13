@@ -7,6 +7,8 @@ My model was an enhanced version of Unet with EfficientNet B4 encoder and Resnet
 
 You can also find the code of an ensembling model that scored 0.8435 LB on Private Leaderboard and 0.8975 LB on Public Leaderboard. I was disturbed by its public LB score and unfortunately i didn't selected it for final score. I would have finished 86th instead.
 
+<img src="./Images/Images-Results.png" alt="ResultsVisualisation" align="center"/>
+
 ## Flowchart
 
 <img src="./Images/Schema.png" alt="FlowChart" align="center"/>
