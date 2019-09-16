@@ -5,7 +5,7 @@ I ranked 98 on 1475 teams during this challenge. I was in a solo team nammed "No
 
 My model was an enhanced version of Unet with EfficientNet B4 encoder and Resnet decoder on 512x512 images. My model scored 0.8407 LB on Private Leaderboard and 0.9018 LB on Public Leaderboard.
 
-You can also find the code of an ensembling model that scored 0.8435 LB on Private Leaderboard and 0.8975 LB on Public Leaderboard. I was disturbed by its public LB score and unfortunately i didn't selected it for final score. I would have finished 86th instead.
+You can also find the code of an ensembling model that scored 0.8435 LB on Private Leaderboard and 0.8975 LB on Public Leaderboard. I was disturbed by its public LB score and unfortunately i didn't selected it for final score. The ensembling model would have finished 86th instead.
 
 <img src="./Images/Images-Results.png" alt="ResultsVisualisation" align="center"/>
 
