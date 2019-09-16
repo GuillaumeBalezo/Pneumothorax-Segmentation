@@ -3,7 +3,7 @@
 98th (top 7%) Place Solution for [SIM-ACR Pneumothorax Segmentation competition on Kaggle](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation)
 I ranked 98 on 1475 teams during this challenge. I was in a solo team nammed "Noob Noob" and it was my first competition.
 
-My model was an enhanced version of Unet with EfficientNet B4 encoder and Resnet decoder on 512x512 images. My model scored 0.8407 LB on Private Leaderboard and 0.9018 LB on Public Leaderboard.
+My model was an enhanced version of [Unet](https://github.com/zhixuhao/unet) with [EfficientNet B4](https://github.com/qubvel/efficientnet) encoder and Resnet decoder on 512x512 images. My model scored 0.8407 LB on Private Leaderboard and 0.9018 LB on Public Leaderboard.
 
 You can also find the code of an ensembling model that scored 0.8435 LB on Private Leaderboard and 0.8975 LB on Public Leaderboard. I was disturbed by its public LB score and unfortunately i didn't selected it for final score. The ensembling model would have finished 86th instead.
 
