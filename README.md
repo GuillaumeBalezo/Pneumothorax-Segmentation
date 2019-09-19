@@ -13,6 +13,10 @@ You can also find the code of an ensembling model that scored 0.8435 LB on Priva
 
 <img src="./Images/Schema.png" alt="FlowChart" align="center"/>
 
+## Single Model Architecture
+
+<img src="./Images/Architecture.png" alt="Architecture" align="center"/>
+
 ## Requirements
 
 ### Download the weights
