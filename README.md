@@ -52,7 +52,7 @@ if you are using Google Collab, you will only have to install pydicom, albumenta
 
 ## Work report
 
-I'm currently writting a work report of what I have done and how I choosed these models. It will be soon avaible.
+You can have access to my Work Report of this competition in the PDF file Work-report.pdf. You can find here many information about my model.
 
 ## Instructions
 
