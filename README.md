@@ -1,11 +1,10 @@
 # Pneumothorax-Segmentation
 
-98th (top 7%) Place Solution for [SIM-ACR Pneumothorax Segmentation competition on Kaggle](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation)
-I ranked 98 on 1475 teams during this challenge. I was in a solo team nammed "Noob Noob" and it was my first competition.
+Top 7% Place Solution for [SIM-ACR Pneumothorax Segmentation competition on Kaggle](https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation)
 
-My model was an enhanced version of [Unet](https://github.com/zhixuhao/unet) with [EfficientNet B4](https://github.com/qubvel/efficientnet) encoder and Resnet decoder on 512x512 images. My model scored 0.8407 LB on Private Leaderboard and 0.9018 LB on Public Leaderboard.
+My model was an enhanced version of [Unet](https://github.com/zhixuhao/unet) with [EfficientNet B4](https://github.com/qubvel/efficientnet) encoder and Resnet decoder on 512x512 images. The model scored 0.8413 LB (dice loss) on Private Leaderboard.
 
-You can also find the code of an ensembling model that scored 0.8435 LB on Private Leaderboard and 0.8975 LB on Public Leaderboard. I was disturbed by its public LB score and unfortunately i didn't selected it for final score. The ensembling model would have finished 86th instead.
+You can also find the code of an ensembling model that has a higher score 0.8435 LB on Private Leaderboard.
 
 <img src="./Images/Images-Results.png" alt="ResultsVisualisation" align="center"/>
 
@@ -28,27 +27,10 @@ For the single model:
 
 ### Set up the Environment
 
-You will need **Python3** with the following librairies:
+- You will need **Python3** with the following librairies and **Tensorflow v1** (v1.14.x or v.1.15.x works)
 
-- pydicom
-- efficientnet
-- albumentations
-- opencv
-- numpy
-- pandas
-- matplotlib
-- tensorflow
-- keras
-- tqdm
-- glob
-- shutil
-- sklearn
-- skimage
+- run: pip3 install -r requirements.txt
 
-Use pip3 to install them.
-
-
-if you are using Google Collab, you will only have to install pydicom, albumentations and efficientnet.
 
 ## Work report
 
@@ -56,8 +38,8 @@ You can have access to my Work Report of this competition in the PDF file Work-r
 
 ## Instructions
 
-* Donwload the dataset of the competition: [dataset](https://www.kaggle.com/iafoss/siimacr-pneumothorax-segmentation-data-512) (If you donwload this dataset, you don't have to preprocess the input images will be png images of shape 512x512)
-* Download the weights and set up your environment if it hasn't been done (check the specific section above)
-* Run the notebook [Model 1 Predictions.ipynb](https://github.com/GuillaumeBalezo/Pneumothorax-Segmentation/blob/master/Model%201%20Predictions.ipynb)
+* Donwload this preprocessed dataset of the competition: [dataset](https://www.kaggle.com/iafoss/siimacr-pneumothorax-segmentation-data-512) 
+* Download the weights and set up your environment.
+* Run the notebook [pneumothorax_segmentation_model.ipynb](https://github.com/GuillaumeBalezo/Pneumothorax-Segmentation/blob/master/pneumothorax_segmentation_model.ipynb)
 
-The model needs a quite high GPU memory, so you may reduce the batch size in the "Hyperparameters section" of the notebooks if you have an issue with your GPU memory.
+You may reduce the batch size in the hyperparameters of the model if you don't have enough GPU memory.
