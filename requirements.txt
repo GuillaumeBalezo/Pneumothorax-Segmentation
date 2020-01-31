@@ -1,0 +1,9 @@
+numpy
+pandas
+keras
+tensorflow >= 1.14
+opencv-python
+tqdm
+glob2
+Pillow
+efficientnet==0.0.4
